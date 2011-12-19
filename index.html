@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<title>Google Translate Telephone</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://www.google.com/jsapi?key=INSERT-YOUR-KEY"></script>
+		<script type="text/javascript">
+			google.load("jquery", "1.5.1");
+			google.load("language", "1");
+		</script>
+		<script src="telephone.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="content">
+			<h1>Google Translate Telephone</h1>
+			<div>
+				<textarea id="input" style="width: 50em; height: 5em;"></textarea><br />
+				<input id="translate" type="button" value="Play Telephone!" />
+				<div id="google-branding"></div>
+			</div>
+			<div id="loading">&nbsp;</div>
+			<div id="translation"></div>
+		</div>
+		<div id="info"></div>
+	</body>
+</html>
